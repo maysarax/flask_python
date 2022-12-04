@@ -1,6 +1,14 @@
 pip3 install django
 pip3 install django_rest_framework
 
+django-admin startproject todo
+django-admin startapp todo_api
+python manage.py makemigrations
+python manage.py migrate
+python manage.py 
+
+
+
 
 sudo yum install python3-djangorestframework
 django-admin --version
