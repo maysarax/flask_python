@@ -17,3 +17,13 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver 0.0.0.0:8000
 
+
+
+python3 -m venv venv
+python3 -m pip install Flask
+source venv/bin/activate
+python3 -m pip install "connexion[swagger-ui]==2.14.1"
+
+mkdir templates
+cd templates/
+nano  home.html
