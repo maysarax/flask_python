@@ -5,8 +5,20 @@ django-admin startproject todo
 django-admin startapp todo_api
 python manage.py makemigrations
 python manage.py migrate
-python manage.py 
+python manage.py createsuperuser \
+  --email admin@example.com \
+  --username admin
+  
+  nano serializers.py
+  nano views.py 
+  nano urls.py
 
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+]
+
+python3 manage.py runserver
 
 
 
