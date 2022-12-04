@@ -16,9 +16,22 @@ python manage.py createsuperuser \
 INSTALLED_APPS = [
     ...
     'rest_framework',
+    'api_app',
 ]
 
 python3 manage.py runserver
+nano models.py
+nano admin.py
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+nano serializers.py
+nano views.py
+nano urls.py
+
+api_app.urls
+nano urls.py
 
 
 
