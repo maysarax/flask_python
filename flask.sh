@@ -1,3 +1,7 @@
+pip3 install django
+pip3 install django_rest_framework
+
+
 sudo yum install python3-djangorestframework
 django-admin --version
 sudo yum install python3-django
